@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Roboto:wght@300&display=swap");
+
+.body {
+  max-width: 1600px;
+  margin: auto;
+  max-height: 2925px;
+}
+.conteiner {
+  width: 1140px;
+  margin: auto;
+}
+.header {
+  display: flex;
+  background: #222222;
+  width: 1600px;
+  height: 75px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 859px;
+}
+.leftHeader {
+  display: flex;
+  align-items: flex-end;
+  gap: 41px;
+}
+.forBtn {
+  background-color: #222;
+  cursor: pointer;
+}
+.rightHeader {
+  display: flex;
+  width: 159px;
+  height: 29px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.first {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #f1e4e6;
+}
+.imedg {
+  width: 50%;
+}
+.construction {
+  display: flex;
+  width: 405px;
+  height: 93.1px;
+  border-left: 12px #f16d7f solid;
+  flex-wrap: wrap;
+  margin-left: 1%;
+  padding-left: 16px;
+}
+.rectangle {
+  width: 12px;
+  height: 92px;
+  flex-shrink: 0;
+  background-color: #f16d7f;
+}
+.chapter {
+  color: #222;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.chapterTwo {
+  display: flex;
+  color: #222;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.chapterThree {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 65px;
+  gap: 30px;
+}
+.forGeneral {
+  position: relative;
+}
+.generalDop {
+  width: 360px;
+  height: 260px;
+}
+.forText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(33, 22, 22, 0.7);
+}
+.forSale {
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.forChapter {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section3 {
+  margin-top: 96px;
+}
+.sec3Text h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #222;
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 6px;
+}
+.sec3Text p {
+  text-align: center;
+  color: #9f9f9f;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+}
+.sec3Img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 48px;
+}
+.frame {
+  width: 360px;
+  height: 586px;
+}
+.stretcher {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 360px;
+  padding: 24px 16px;
+  gap: 16px;
+}
+.stretcher h2 {
+  color: #000;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.stretcher h3 {
+  color: #5d5d5d;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+}
+.stretcher p {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+.downBtn {
+  width: 1140px;
+  height: 156px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 212px;
+  height: 48px;
+  color: #f26376;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  border-color: #ff6a6a;
+  background: #fff;
+  cursor: pointer;
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .header {
+    width: 1024px;
+    gap: 424px;
+  }
+  .conteiner {
+    width: auto;
+  }
+
+  .section2 {
+    gap: 20px;
+  }
+  .generalDop {
+    width: 231.973px;
+    height: 167.617px;
+  }
+  .generalDop2 {
+    width: 734px;
+    height: 116px;
+  }
+  .section3 {
+    margin-top: 109px;
+  }
+  .sec3Img {
+    margin-top: 72px;
+    gap: 16px;
+  }
+  .downBtn {
+    width: 768px;
+  }
+}

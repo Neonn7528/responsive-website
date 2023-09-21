@@ -22,11 +22,14 @@
 .leftHeader {
   display: flex;
   align-items: flex-end;
-  gap: 41px;
+  width: 111px;
+  height: 38px;
+  justify-content: space-between;
 }
 .forBtn {
   background-color: #222;
   cursor: pointer;
+  border: none;
 }
 .rightHeader {
   display: flex;
@@ -76,6 +79,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-right: 10px;
 }
 .chapterThree {
   color: #f16d7f;
